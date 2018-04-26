@@ -1,0 +1,6 @@
+verilog isim_temp "SignExtender.v"
+verilog isim_temp "RegMux.v"
+verilog isim_temp "RegFile.v"
+verilog isim_temp "ControlUnit.v"
+verilog isim_temp "ID.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

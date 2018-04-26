@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/CSULB/New folder/pipeline_MIPS/pipelinevtf_isim_beh.exe" -prj "D:/CSULB/New folder/pipeline_MIPS/pipelinevtf_beh.prj" "work.pipelinevtf" "work.glbl" 

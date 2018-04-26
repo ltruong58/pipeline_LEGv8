@@ -1,0 +1,62 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/CSULB/New folder/pipeline_MIPS/pipelinevtf_isim_beh.exe" -prj "D:/CSULB/New folder/pipeline_MIPS/pipelinevtf_beh.prj" "work.pipelinevtf" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/SignExtender.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/RegMux.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/RegFile.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/InstrMem.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/FullMux.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/DataMem.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/ControlUnit.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/alu.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/adder.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/WB.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/PCRegister.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/MEMWBRegister.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/MEM.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/IFIDRegister.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/IF.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/IDEXERegister.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/ID.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/EXEMEMRegister.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/EXE.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/cpu.v" into library work
+Analyzing Verilog file "D:/CSULB/New folder/pipeline_MIPS/pipelinevtf.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "D:/CSULB/New folder/pipeline_MIPS/cpu.v" Line 55: Target <Branch_s4> of concurrent assignment or output port connection should be a net type.
+Completed static elaboration
+Fuse Memory Usage: 196900 KB
+Fuse CPU Usage: 218 ms
+Compiling module FullMux
+Compiling module PCRegister
+Compiling module adder
+Compiling module InstrMem
+Compiling module IF
+Compiling module IFIDRegister
+Compiling module ControlUnit
+Compiling module RegMux
+Compiling module SignExtender
+Compiling module RegFile
+Compiling module ID
+Compiling module IDEXERegister
+Compiling module ALUControl
+Compiling module MIPSALU
+Compiling module ALU
+Compiling module EXE
+Compiling module EXEMEMRegister
+Compiling module DataMem
+Compiling module MEM
+Compiling module MEMWBRegister
+Compiling module WB
+Compiling module cpu
+Compiling module pipelinevtf
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 24 Verilog Units
+Built simulation executable D:/CSULB/New folder/pipeline_MIPS/pipelinevtf_isim_beh.exe
+Fuse Memory Usage: 202316 KB
+Fuse CPU Usage: 358 ms
